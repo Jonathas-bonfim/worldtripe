@@ -2,7 +2,8 @@ import { Flex, Grid, GridItem } from "@chakra-ui/layout";
 import Peculiarity from "./peculiarity";
 
 
-export default function Peculiaritys() {
+
+export default function Peculiarities() {
   return (
     <Grid
       templateColumns={["1fr 1fr", "1fr 1fr", "1fr 1fr", "repeat(5, 1fr)"]}
